@@ -1,0 +1,166 @@
+.container{
+    
+    min-height: 1000px;
+    min-width: 1000px;
+    align-items: center;
+    text-align: center;
+    text-size-adjust:100px;
+    display:inline-flexbox;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50%;
+    padding-bottom: 20px;
+    position:relative;
+   
+    justify-content: center;
+    background-color:rgb(74, 50, 104);
+
+
+}
+#TIME{
+    color:aliceblue;
+    font-size: larger;
+    font-weight: 900;
+}
+
+#clock{
+    color: aliceblue;
+    display:inline-flex;
+    min-width:130px;
+    min-height: fit-content;
+    text-align:centre;
+    margin: 2 5px;
+    padding: 50px;
+    padding-right:100px;
+    padding-left: 150px;
+    background-color:rgb(24, 2, 53);
+}
+
+
+.innerHour{
+    font-weight:900; 
+    text-align: center;
+    padding-bottom: 2%;
+    display:inline-block;
+    border: 2px solid red;
+    border-color: red transparent transparent;
+    border-radius: 60%;
+    width: 59px;
+    height: 55px;
+   
+    
+     /* height: 38px;
+     width: 57px;
+     border: 2px solid red;
+     border-radius: 50%;
+     text-align:center;
+     display: inline-block;
+     padding-top: 25%;
+     padding-bottom: 5%;
+     font-weight:900;
+     */
+}
+
+
+
+#Hour{
+    text-align:center;
+    padding-bottom: 50px;
+    
+    
+
+}
+/* .outerHour{
+    height: 65px;
+    width: 79px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+   
+    padding-top: 5%;
+    padding-bottom: 4%;
+    
+} */
+    
+    
+
+
+.innerMinutes{
+
+    height: 38px;
+    width: 57px;
+    border: 2px solid red;
+    border-radius: 50%;
+    border-color: red transparent transparent;
+    text-align:center;
+    display: inline-block;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-weight:900;
+}
+
+/* .outerMinutes{
+    height: 49spx;
+    width: 79px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}     */
+
+.innerSeconds{
+    height: 38px;
+    width: 57px;
+    border: 2px solid red;
+    border-color: red transparent transparent;
+    border-radius: 50%;
+    text-align:center;
+    display: inline-block;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-weight:900;
+    animation: rotate 1s linear infinite;
+}
+
+/* @keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+#Seconds{
+    
+} */
+/* .outerSeconds{
+    height: 49spx;
+    width: 79px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    
+} */
+
+.innerAmOrPm{
+    height: 38px;
+    width: 57px;
+    /* border: 2px solid red;
+    border-radius: 50%; */
+    text-align:center;
+    display: inline-block;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-weight:900;
+    
+}
+/* .outerAmOrPm{
+    height: 49spx;
+    width: 79px;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align:center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    
+} */
